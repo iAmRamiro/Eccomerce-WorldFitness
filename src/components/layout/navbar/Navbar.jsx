@@ -15,8 +15,8 @@ import LoginIcon from "@mui/icons-material/Login";
 import FormatListBulletedIcon from "@mui/icons-material/FormatListBulleted";
 import SearchBarNav from "./SearchBarNav";
 import { Link } from "react-router-dom";
-import CartWidget from "../../common/cartWidget/cartWidget";
 import ProductDrawer from "./ProductDrawer";
+import CartWidget from "../../common/cartWidget/CartWidget";
 
 export const Navbar = ({ navLinks }) => {
   const [open, setOpen] = React.useState(false);
