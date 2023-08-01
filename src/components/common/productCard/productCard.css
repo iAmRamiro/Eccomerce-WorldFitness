@@ -1,0 +1,32 @@
+.contenedor {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.product--image {
+  width: 100%;
+  height: 20em;
+  object-fit: contain;
+}
+
+.product--name h2 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  max-width: 330px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
